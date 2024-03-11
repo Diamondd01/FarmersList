@@ -11,4 +11,3 @@ class Product {
 }
 module.exports = Product;
 
-import
