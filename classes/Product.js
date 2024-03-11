@@ -3,12 +3,11 @@ class Product {
         this.name=name;
         this.price=price;
         this.description=description;
-        inStock=true; 
+        this.inStock=true; 
     }
     display(){
-        returns `Name: ${this.name}, Price: ${this.price}, Description:${this.description}`;
+        return `Name: ${this.name}, Price: $${this.price}, Description: ${this.description}`;
     }
 }
 module.exports = Product;
 
-import
